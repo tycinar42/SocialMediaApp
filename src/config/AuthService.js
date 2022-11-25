@@ -1,7 +1,8 @@
-import RestApiUrls from "./RestApiUrls";
+import RestApis from "./RestApiUrls";
 
-const AuthService = {
-    register: RestApiUrls.AuthService + '/auth/register',
+const authService = {
+  register: RestApis.authService + "/auth/register",
+  login: RestApis.authService + "/auth/login",
 };
 
-export default AuthService;
+export default authService;
